@@ -1,3 +1,23 @@
+"""
+-------------------------------------------------
+Day 1 : OpenCV Basics
+
+Author : Anand Pandey
+
+Objectives
+
+✔ Read an image
+✔ Display an image
+✔ Convert to grayscale
+✔ Resize
+✔ Rotate
+✔ Draw rectangle
+✔ Draw circle
+✔ Add text
+✔ Save image
+
+-------------------------------------------------
+"""
 import cv2
 from pathlib import Path
 

@@ -28,3 +28,20 @@ The computer vision is being used today in a wide variety of real-world applicat
     capture actors for computer animation; • Surveillance: monitoring for intruders, analyzing highway traffic and monitoring pools for 
     drowning victims (e.g., https://swimeye.com); 
 • Fingerprint recognition and biometrics: for automatic access authentication as well as forensic applications.
+
+Why convert to grayscale?
+
+    Many algorithms only need brightness.
+
+    Examples
+
+        Face Detection
+        Edge Detection
+        OCR
+        Motion Detection
+
+    Grayscale is
+
+        Faster
+        Smaller
+        Simpler
