@@ -1,47 +1,94 @@
 What is Computer Vision?
+
 Researchers in computer vision have been developing, in parallel, mathematical techniques for recovering 
+
 the three-dimensional shape and appearance of objects in imagery.
 
+
+
 Why is it difficult?
-Whyis vision so difficult? In part, it is because it is an inverse problem, in which we seek to 
+
+Why is vision so difficult? In part, it is because it is an inverse problem, in which we seek to 
+
 recover some unknowns given insufficient information to fully specify the solution. 
+
 We must therefore resort to physics-based and probabilistic models, or machine learning from large sets of examples, 
+
 to disambiguate between potential solutions. However, modeling the visual world in all of its rich complexity is far more difficult than,
+
 say, modeling the vocal tract that produces spoken sounds.
 
+
+
 Applications?
+
 The computer vision is being used today in a wide variety of real-world applications, which include: 
+
 • Optical character recognition (OCR): reading handwritten postal codes on letters and automatic number plate recognition (ANPR); 
+
 • Machine inspection: rapid parts inspection for quality assurance using stereo vision with specialized illumination to 
-   measure tolerances on aircraft wings or auto body parts (Figure 1.4b) or looking for defects in steel castings using X-ray vision; 
+
+&#x20;  measure tolerances on aircraft wings or auto body parts (Figure 1.4b) or looking for defects in steel castings using X-ray vision; 
+
 • Retail: object recognition for automated checkout lanes and fully automated stores (Wingfield 2019); 
+
 • Warehouselogistics: autonomouspackagedeliveryandpallet-carrying “drives” and parts picking by robotic manipulators; 
+
 • Medical imaging: registering pre-operative and intra-operative imagery or performing long-term studies of people’s brain morphology as they age; 
+
 • Self-driving vehicles: capable of driving point-to-point between cities; Montemerlo, Becker et al. 2008; Urmson, Anhalt et al. 2008; 
-    Janai, G¨ uney et al. 2020) as well as autonomous flight (Kaufmann, Gehrig et al. 2019); 
+
+&#x20;   Janai, G¨ uney et al. 2020) as well as autonomous flight (Kaufmann, Gehrig et al. 2019); 
+
 • 3D model building (photogrammetry): fully automated construction of 3D models from aerial and drone photographs; 
+
 • Match move: merging computer-generated imagery (CGI) with live action footage by tracking feature points in the source video 
-    to estimate the 3D camera motion and shape of the environment. Such techniques are widely used in Hollywood, e.g., 
-    in movies such as Jurassic Park (Roble 1999; Roble and Zafar 2009); they also require the use of
-    precise matting to insert new elements between foreground and background elements (Chuang, Agarwala et al. 2002). 
+
+&#x20;   to estimate the 3D camera motion and shape of the environment. Such techniques are widely used in Hollywood, e.g., 
+
+&#x20;   in movies such as Jurassic Park (Roble 1999; Roble and Zafar 2009); they also require the use of
+
+&#x20;   precise matting to insert new elements between foreground and background elements (Chuang, Agarwala et al. 2002). 
+
 • Motion capture (mocap): using retro-reflective markers viewed from multiple cameras or other vision-based techniques to 
-    capture actors for computer animation; • Surveillance: monitoring for intruders, analyzing highway traffic and monitoring pools for 
-    drowning victims (e.g., https://swimeye.com); 
+
+&#x20;   capture actors for computer animation; • Surveillance: monitoring for intruders, analyzing highway traffic and monitoring pools for 
+
+&#x20;   drowning victims (e.g., https://swimeye.com); 
+
 • Fingerprint recognition and biometrics: for automatic access authentication as well as forensic applications.
+
+
 
 Why convert to grayscale?
 
-    Many algorithms only need brightness.
 
-    Examples
 
-        Face Detection
-        Edge Detection
-        OCR
-        Motion Detection
+&#x20;   Many algorithms only need brightness.
 
-    Grayscale is
 
-        Faster
-        Smaller
-        Simpler
+
+&#x20;   Examples
+
+
+
+&#x20;       Face Detection
+
+&#x20;       Edge Detection
+
+&#x20;       OCR
+
+&#x20;       Motion Detection
+
+
+
+&#x20;   Grayscale is
+
+
+
+&#x20;       Faster
+
+&#x20;       Smaller
+
+&#x20;       Simpler
+

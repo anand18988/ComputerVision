@@ -6,14 +6,14 @@
 
 ## Topics Learned
 
-- Reading images
-- Displaying images
-- Grayscale conversion
-- Image resizing
-- Image rotation
-- Drawing shapes
-- Adding text
-- Saving images
+* Reading images
+* Displaying images
+* Grayscale conversion
+* Image resizing
+* Image rotation
+* Drawing shapes
+* Adding text
+* Saving images
 
 ## Important Concepts
 
@@ -61,12 +61,9 @@ cv2.imwrite()
 
 Saves an image.
 
-## Questions
-
-Why does OpenCV use BGR instead of RGB?
-
-How is an image stored in memory?
-
 ## Summary
 
 Today I learned the fundamentals of image manipulation using OpenCV.
+
+
+

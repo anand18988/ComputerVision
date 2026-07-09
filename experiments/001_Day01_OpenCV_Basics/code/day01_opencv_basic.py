@@ -26,7 +26,7 @@ script_dir = Path(__file__).parent
 print(script_dir)
 
 # Go to ComputerVision/datasets/images/newton.jpeg
-image_path = script_dir.parent / "datasets" / "images" / "newton.jpeg"
+image_path = script_dir.parent.parent.parent / "datasets" / "raw" / "newton.jpeg"
 
 img = cv2.imread(str(image_path))
 
@@ -79,6 +79,7 @@ cv2.putText(
 
 # Show edited image
 cv2.imshow("Edited", img)
-cv2.imwrite("output.jpg", img)                        # saves image
+edited_image_path = script_dir.parent.parent.parent / "datasets" / "processed" / "newton.jpeg"
+cv2.imwrite(edited_image_path, img)                        # saves image
 cv2.waitKey(0)
 cv2.destroyAllWindows()

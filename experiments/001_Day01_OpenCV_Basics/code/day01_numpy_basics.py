@@ -66,7 +66,7 @@ B = np.array([10, 20, 30])
 
 # Perform addition using broadcasting
 result = A + B
-print(result)
+print("broadcasting \n",result)
 result = B+A
 print(result)
 
